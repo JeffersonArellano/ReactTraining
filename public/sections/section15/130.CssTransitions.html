@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Some Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+
+    <style>
+        @keyframes showUp {
+
+            from {
+                transform: scale(0.6);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes beat {
+
+            0% {
+                transform: scale(1) translateX(0%);
+                opacity: 0.5;
+                background: purple;
+            }
+
+            100% {
+                transform: scale(0.5) translateX(100%);
+                opacity: 1;
+                background: orange;
+            }
+        }
+
+        .ball {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: tomato;
+            animation-duration: 1s;
+            animation-name: beat;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            animation-delay: 100ms;
+            animation-direction: reverse;
+            animation-fill-mode: backwards;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ball">
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
