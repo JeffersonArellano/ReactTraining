@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import TestComponent from './sections/section17/172.RedirectComponent'
+import TestComponent from './sections/section17/173.ImperativeNavHistoryMethods'
 
 class App extends Component {
   render() {
